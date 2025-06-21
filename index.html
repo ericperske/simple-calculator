@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="leftHead"></div>
+        <div id="mainHead"><h1>Simple Calculator</h1></div>
+        <div id="rightHead">
+            <div id="dayOrNight" >Switch to Nightmode: 
+                <button class="changeMode" id="day"></button>
+            </div>
+        </div>
+    </header>
+    <div class="mainCalculator">
+        <div id="body">
+            <div id="display"></div>
+            <!-- <div id="functionButtons">     
+                <div id="firstRow"></div>
+                <div id="secondRow"></div>
+            </div>      These extra function buttons _could_ be added in the future in order to allow for more operations, such as sqrt{} but for now they will be neglected.-->
+            <div id="numberButtons">
+                <div id="firstRow">
+                    <div id="seven" class="button">7</div>
+                    <div id="eight" class="button">8</div>
+                    <div id="nine" class="button">9</div>
+                    <div id="deleteButton" class="button">DEL</div>
+                    <div id="clearButton" class="button">AC</div>
+                </div>
+                <div id="secondRow">
+                    <div id="four" class="button">4</div>
+                    <div id="five" class="button">5</div>
+                    <div id="six" class="button">6</div>
+                    <div id="multiplyButton" class="button">x</div>
+                    <div id="divideButton" class="button">÷</div>
+                </div>
+                <div id="thirdRow">
+                    <div id="one" class="button">1</div>
+                    <div id="two" class="button">2</div>
+                    <div id="three" class="button">3</div>
+                    <div id="plusButton" class="button">+</div>
+                    <div id="minusButton" class="button">-</div>
+                </div>
+                <div id="fourthRow">
+                    <div id="zero" class="button">0</div>
+                    <div id="comma" class="button">.</div>
+                    <div id="pi" class="button">π</div>
+                    <div id="eulerNumber" class="button">e</div>
+                    <div id="solveButton" class="button">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

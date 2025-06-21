@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e5f1;
+}
+h1 {
+   color: #2D3748; 
+}
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 0;
+    width: 100vw;
+}
+
+header {
+    margin: 0px auto 30px auto;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftHead,
+#rightHead {
+    display: flex;
+    flex: 1;
+    height: 79.88px;
+    width: auto;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#leftContainer,
+#rightContainer {
+    display: flex;
+    flex: 1;
+    border: 2px solid red;
+}
+
+.button, 
+button {
+    align-items: center;
+    padding: 4px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: #d2d3db;
+    color: black;
+    height: 30px;
+    width: 50px;
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+#numberButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#firstRow, #secondRow, #thirdRow, #fourthRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#display {
+    border-radius: 5px;
+    width: auto;
+    height: 38px;
+    margin: 10px auto 10px auto;
+    background-color: white;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#dayOrNight {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#day {
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+#night {
+    border-radius: 5px;
+    background-color: darkblue;
+}
